@@ -1,11 +1,14 @@
 {
-	"name": "vscode-icontheme-nomo-dark",
-	"displayName": "Nomo Dark Icon Theme",
-	"version": "1.3.6",
-	"description": "Nomo Dark Icon Theme",
+	"name": "ilambda-vscode-icontheme-nomo-dark",
+	"displayName": "iLambda/Nomo Dark Icon Theme",
+	"version": "1.3.7",
+	"description": "iLambda/Nomo Dark Icon Theme",
 	"categories": [
 		"Themes"
 	],
+	"scripts": {
+		"build": "vsce package && (mkdir -p ./dist/ ; mv ./*.vsix ./dist)"
+	},
 	"keywords": [
 		"icon-theme",
 		"icons",
@@ -14,11 +17,11 @@
 		"ui"
 	],
 	"bugs": {
-		"url": "https://github.com/be5invis/vscode-iconset/issues"
+		"url": "https://github.com/ilambda/vscode-iconset/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/be5invis/vscode-iconset"
+		"url": "https://github.com/ilambda/vscode-iconset"
 	},
 	"license": "MIT",
 	"author": {
@@ -30,8 +33,8 @@
 	"contributes": {
 		"iconThemes": [
 			{
-				"id": "vs-nomo-dark",
-				"label": "Nomo Dark for Visual Studio Code",
+				"id": "ilambda-vs-nomo-dark",
+				"label": "iLambda / Nomo Dark for Visual Studio Code",
 				"path": "icons.json"
 			}
 		]

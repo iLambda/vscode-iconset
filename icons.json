@@ -1,6 +1,9 @@
 {
 	"iconDefinitions": {
 		// File types
+		"file.shader": {
+			"iconPath": "./src/file.shader.svg"
+		},
 		"file.json": {
 			"iconPath": "./src/file.json.svg"
 		},
@@ -378,6 +381,7 @@
 		"hxml": "file.haxe",
 		"java": "file.java",
 		"ts": "file.ts",
+		"css.ts": "file.css",
 		"d.ts": "file.d.ts",
 		"vue": "file.vue",
 		"xml": "file.xml",
@@ -481,7 +485,15 @@
 		"key": "file.key",
 		"pem": "file.crt",
 		"cr": "file.cr",
-		"ecr": "file.cr"
+		"ecr": "file.cr",
+		"vert": "file.shader",
+		"tesc": "file.shader",
+		"tese": "file.shader",
+		"geom": "file.shader",
+		"frag": "file.shader",
+		"comp": "file.shader",
+		"glsl": "file.shader",
+		"hlsl": "file.shader"
 	},
 	"fileNames": {
 		"package.json": "config.npm",
