@@ -530,6 +530,7 @@
 		"gulpfile.js": "config.gulp",
 		"gulpfile.babel.js": "config.gulp",
 		".eslintrc": "config.eslint",
+		".eslintrc.cjs": "config.eslint",
 		".eslintrc.js": "config.eslint",
 		".eslintrc.json": "config.eslint",
 		".eslintrc.yaml": "config.eslint",
